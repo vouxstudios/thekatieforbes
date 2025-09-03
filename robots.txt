@@ -1,0 +1,10 @@
+# robots.txt for thekatieforbes.com
+
+User-agent: *
+Disallow: /private/     # Disallow search engines from crawling the /private/ directory (if applicable)
+Disallow: /admin/       # Disallow search engines from crawling the /admin/ directory (if applicable)
+
+Sitemap: https://www.thekatieforbes.com/sitemap.xml  # Link to your sitemap
+
+# Allow all other pages on the site to be crawled
+Allow: /
